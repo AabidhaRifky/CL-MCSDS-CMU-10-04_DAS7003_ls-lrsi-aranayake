@@ -1,0 +1,20 @@
+# Raw downloaded data - these are hundreds of MB to GB, never push these
+data/raw/sentinel/
+data/raw/sentinel2/
+data/raw/chirps/
+data/raw/osm/
+
+# Sentinel-2 SAFE folders and zips specifically (in case they land elsewhere)
+*.SAFE/
+*.SAFE.zip
+*.jp2
+
+# CHIRPS compressed rainfall files
+*.tif.gz
+
+# OSM extracts
+*.osm.pbf
+
+# Jupyter checkpoint clutter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
